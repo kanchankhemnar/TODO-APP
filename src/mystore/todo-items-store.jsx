@@ -23,7 +23,7 @@ if(action.type==="NEW_ITEM"){
 
 
  const TodoItemsContextProvider=({children})=>{
-  let [initialTasks, dispatchTodoItems] = useReducer(todoItemsReducer, [{name:"hello" , date:"7-2-2004"}]);
+  let [initialTasks, dispatchTodoItems] = useReducer(todoItemsReducer, [{name:"study" , date:"7-2-2004"}]);
   
   //defining action objects for reducer funtion
   const addNewItem=(itemName,itemDate)=>{
