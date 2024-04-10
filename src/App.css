@@ -1,0 +1,56 @@
+*{
+  margin-top:px;
+}
+body {
+  
+  
+  background-color: black;
+  width:85%;
+  margin:2rem 0rem 0rem 7rem;
+  min-height: fit-content;
+  border:5px solid white;
+}
+h1 {
+  height:100px;
+  width:250px;
+  margin-top: 2rem;
+  padding-top:2rem;
+  font-weight: 700;
+  color: rgb(224, 239, 62);
+  border:2px solid rgb(224, 239, 62);
+}
+input{
+  color:black;
+  background-color: aliceblue;
+  border: 3px solid rgb(152, 246, 12);
+}
+hr{
+  color:white;
+
+}
+p{
+  color: white;
+  font-size: larger;
+}
+.my-button{
+  height: 40px;
+  border: 2px solid rgb(68, 191, 31);
+}
+.red-button{
+  border: 2px solid rgb(226, 80, 12);
+  
+}
+.my-button:hover{
+  background-color: rgb(224, 239, 62);
+  color: black;
+  
+}
+#taskName{
+  width: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+}
+#taskName:hover{
+  cursor: pointer;
+}
